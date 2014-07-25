@@ -1,0 +1,5 @@
+#!/bin/sh
+npm prune
+npm install "$@" --save-dev --save-exact
+npm dedupe
+npm shrinkwrap
