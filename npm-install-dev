@@ -2,4 +2,4 @@
 npm prune
 npm install "$@" --save-dev --save-exact
 npm dedupe
-npm shrinkwrap
+npm shrinkwrap --dev
